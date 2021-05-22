@@ -15,10 +15,12 @@
     rel="stylesheet"
   >
 
-  <script>
-    var browserWidth = window.innerWidth;
-    document.getElementById("YouTubeViewer").width = browserWidth - "700";
-  </script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  >
+
+  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 
   <style>
     body {
@@ -30,79 +32,122 @@
       margin-left: auto;
       margin-right: auto;
     }
-    .social {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 10%;
-    }
-    
     div.fixed {
       position: fixed;
       bottom: 0;
       right: 0;
-      width: 300px;
+      width: 200px;
       border: 3px solid #73AD21;
+    }
+    .header img {
+      float: left;
+      width: 100px;
+      height: 100px;
+      background: #555;
+    }
+
+    .header h1 {
+      position: relative;
+      top: 18px;
+      left: 5px;
+    }
+    /* Style all font awesome icons */
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 42px;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    /* Add a hover effect if you want */
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+    /* Set a specific color for each brand */
+
+    /* Facebook */
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+
+    .fa-instagram {
+      background: #D63086;
+      color: white;
+    }
+
+    .fa-discord {
+      background: #5865F2;
+      color: white;
     }
 
   </style>
 </head>
 
-Working Prototype v0.0.1
-<div>
-<img
-  src="logo 2021.jpg"
-  alt="JMTNTFortnite Logo"
-  width="128"
-  height="128"
-  class="center"
->
-<h1
-  style="text-align:center;">
+<p
+  style="
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+  "
+  >
+  Working Prototype v0.0.1
+</p>
+<div class="header">
+  <img
+    src="logo 2021.jpg"
+    alt="JMTNTFortnite Logo"
+    width="128"
+    height="128"
+  >
+  <h1>
   JMTNTFortnite
-</h1>
+  </h1>
 </div>
+
+<hr>
 
 <!-- Social Buttons -->
 <div
-  class=social
+  style="
+    position: fixed;
+    right: 72px;
+    top: 350px;
+    width: 10px;
+  "
   >
   <a
-     href="https://www.youtube.com/channel/UC9Mu1sUuXviMxGULly4z2bg"
-  >
-  <img
-    src="https://www.youtube.com/s/desktop/c20c1e6c/img/favicon_144.png"
-    alt="JMTNTFortnite YouTube"
-    style="width:42px;height:42px;"
+    target="_blank"
+    href="https://www.youtube.com/channel/UC9Mu1sUuXviMxGULly4z2bg"
+    class="fa fa-youtube"
   >
   </a>
 
   <a
+    target="_blank"
     href="https://facebook.com/JMTNTFortnite"
-  >
-
-  <img
-    src="https://static.xx.fbcdn.net/rsrc.php/yD/r/d4ZIVX-5C-b.ico"
-    alt="JMTNTFortnite Facebook"
-    style="width:42px;height:42px;"
+    class="fa fa-facebook"
   >
   </a>
 	
 	<a
+    target="_blank"
     href="https://www.instagram.com/jmtntfortnite/"
-  >
-  <img
-    src="https://www.instagram.com/static/images/ico/favicon.ico/36b3ee2d91ed.ico"
-    alt="JMTNTFortnite Instagram"
-    style="
-    width:42px;
-    height:42px;
-    "
+    class="fa fa-instagram"
   >
   </a>
 	
 	<a
-  href="https://discord.gg/SGb7arBNGU"
+    target="_blank"
+    href="https://discord.gg/SGb7arBNGU"
+    class="fa fa-discord"
   >
   <img
   src="https://discord.com/assets/847541504914fd33810e70a0ea73177e.ico"
@@ -115,9 +160,8 @@ Working Prototype v0.0.1
   </a>
 </div>
 
-<hr>
 
-<div>
+<!-- <div> -->
 <!-- Facebook Plugin -->
 <!--   <iframe 
     src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FJMTNTFortnite%2F&tabs=timeline&width=350&height=540&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
@@ -132,17 +176,22 @@ Working Prototype v0.0.1
     frameborder="0"
     allowfullscreen="true"
     allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-  > -->
+  >
 
-  </iframe>
+  </iframe> -->
 
   <!-- YouTube Viewer -->
+  <pre>
+  <pre>
   <iframe
     id="YouTubeViewer"
-    align=top
-    width="960"
-    height="540"
-    class="center"
+    width="480"
+    height="270"
+    style="
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+    "
     src="https://www.youtube.com/embed/videoseries?list=UU9Mu1sUuXviMxGULly4z2bg"
     frameborder="0"
     allow="autoplay; encrypted-media"
@@ -165,9 +214,10 @@ Working Prototype v0.0.1
     "
     allowtransparency="true"
     frameborder="0"
-    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" -->
-  >
+    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+  > --><!-- 
   
   </iframe>
 
 </div>
+ -->
