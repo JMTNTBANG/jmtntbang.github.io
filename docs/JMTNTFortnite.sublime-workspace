@@ -3,6 +3,10 @@
 	{
 		"selected_items":
 		[
+			[
+				"text-a",
+				"text-align\tproperty"
+			]
 		]
 	},
 	"buffers":
@@ -11,7 +15,7 @@
 			"file": "home.html",
 			"settings":
 			{
-				"buffer_size": 3377,
+				"buffer_size": 4943,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -76,6 +80,8 @@
 	],
 	"file_history":
 	[
+		"/F/autorun.inf",
+		"/C/Users/james/AppData/Roaming/.minecraft/versions/1.16.5/1.16.5 Resource Pack/pack.mcmeta"
 	],
 	"find":
 	{
@@ -110,7 +116,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -119,15 +125,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3377,
+						"buffer_size": 4943,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								933,
-								933
+								4122,
+								4122
 							]
 						],
 						"settings":
@@ -137,10 +143,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 216.0,
+						"translation.y": 3915.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -170,7 +176,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
