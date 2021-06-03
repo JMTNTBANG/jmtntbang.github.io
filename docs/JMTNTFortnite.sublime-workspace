@@ -12,28 +12,37 @@
 	"buffers":
 	[
 		{
-			"file": "home.html",
-			"settings":
-			{
-				"buffer_size": 4943,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1647,
+				"buffer_size": 4356,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "heckianmuseum/index.html",
+			"file": "styles.css",
 			"settings":
 			{
-				"buffer_size": 31199160,
+				"buffer_size": 2005,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "schedule.html",
+			"settings":
+			{
+				"buffer_size": 3421,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "contact.html",
+			"settings":
+			{
+				"buffer_size": 4276,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -80,12 +89,16 @@
 	],
 	"file_history":
 	[
+		"/C/Users/james/Documents/GitHub/jmtntbang.github.io/docs/index.old",
+		"/C/Users/james/Documents/GitHub/jmtntbang.github.io/docs/heckianmuseum/index.html",
+		"/C/Users/james/Documents/GitHub/jmtntbang.github.io/docs/schedule/index.html",
+		"/C/Users/james/Documents/GitHub/jmtntbang.github.io/docs/heckianmuseum/schedule/index.html",
 		"/F/autorun.inf",
 		"/C/Users/james/AppData/Roaming/.minecraft/versions/1.16.5/1.16.5 Resource Pack/pack.mcmeta"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 29.0
 	},
 	"find_in_files":
 	{
@@ -99,6 +112,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"0084ff"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -121,19 +135,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "home.html",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4943,
+						"buffer_size": 4356,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4122,
-								4122
+								1673,
+								2152
 							]
 						],
 						"settings":
@@ -143,7 +157,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3915.0,
+						"translation.y": 1529.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -151,19 +165,49 @@
 				},
 				{
 					"buffer": 1,
-					"file": "index.html",
+					"file": "styles.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1647,
+						"buffer_size": 2005,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								830,
-								830
+								1998,
+								1998
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1196.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "schedule.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3421,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1473,
+								1473
 							]
 						],
 						"settings":
@@ -173,40 +217,40 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 542.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "heckianmuseum/index.html",
+					"buffer": 3,
+					"file": "contact.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 31199160,
+						"buffer_size": 4276,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3062,
+								3062
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 13878.0,
+						"translation.y": 1565.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -214,11 +258,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 40.0
+		"height": 29.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 42.0
 	},
 	"layout":
 	{
@@ -251,7 +295,7 @@
 	"project": "JMTNTFortnite.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":

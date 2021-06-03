@@ -1,0 +1,96 @@
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: rgba(150, 223, 255, 1);
+      }
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    div.fixed {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      width: 200px;
+      border: 3px solid #73AD21;
+    }
+    .header img {
+      float: left;
+      width: 100px;
+      height: 100px;
+      background: #555;
+    }
+
+    .header h1 {
+      position: relative;
+      top: 18px;
+      left: 5px;
+    }
+    /* Style all font awesome icons */
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 42px;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    /* Add a hover effect if you want */
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+    /* Set a specific color for each brand */
+
+    /* Facebook */
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+
+    .fa-instagram {
+      background: #D63086;
+      color: white;
+    }
+
+    .fa-discord {
+      background: #5865F2;
+      color: white;
+    }
+    a:first-child div {
+      border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+    }
+    a:last-child div {
+      border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+    }
+    nav {
+      font-size: 14px;
+      font-family: georgia;
+      text-align: center;
+    }
+    .nav {
+      width: 119px;
+      border: solid 1px;
+      float: left;
+      font-family: 'Poppins', sans-serif;
+      background: #0084ff;
+      background: -webkit-linear-gradient(#0084ff, #0084ff);
+      background:    -moz-linear-gradient(#0084ff, #0084ff);
+      background:     -ms-linear-gradient(#0084ff, #0084ff);
+      background:      -o-linear-gradient(#0084ff, #0084ff);
+      background:         linear-gradient(#0084ff, #0084ff);
+      color: white;
+      position: relative;
+      left: 10px;
+    }
+    .active {
+      background: #9d00ff;
+    }
